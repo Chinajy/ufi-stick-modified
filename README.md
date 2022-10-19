@@ -1,20 +1,8 @@
 # UFI 系列上网棒
 
-## 进入 9008 模式
-
-```plain
-adb reboot edl
-fastboot oem edl
-fastboot oem emergency
-```
-
 ## 参考文章
 
-- <http://blog.shizuku.ml/shizuku/040709.html>
-- <http://blog.shizuku.ml/shizuku/042422.html>
 - <http://blog.shizuku.ml/shizuku/042608.html>
-- <http://blog.shizuku.ml/shizuku/045009.html>
-- <http://blog.shizuku.ml/shizuku/051911.html>
 - <http://blog.shizuku.ml/shizuku/065359.html>
 - <http://blog.shizuku.ml/shizuku/065919.html>
 - <http://blog.shizuku.ml/shizuku/083803.html>
