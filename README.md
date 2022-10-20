@@ -1,5 +1,16 @@
 # UFI 系列上网棒
 
+## 软件
+
+- Miko Service Tool
+- Qualcomm Premium Tool
+- QualTek Tool
+- 星海 SVIP 工具
+- 高通串号工具
+- AndroidCarrierClassTools
+- ADB_BootLoder
+- MiFlash
+
 ## 参考文章
 
 - <http://blog.shizuku.ml/shizuku/042608.html>
@@ -7,7 +18,7 @@
 - <http://blog.shizuku.ml/shizuku/065919.html>
 - <http://blog.shizuku.ml/shizuku/083803.html>
 - <http://blog.shizuku.ml/shizuku/084639.html>
-- <https://github.com/HandsomeMod/HandsomeMod>
+- <https://github.com/HandsomeMod>
 - <https://github.com/OpenStick>
 - <https://lxnchan.cn/ufi4gstick.html>
 - <https://oshwhub.com/zy143l/ufi_hub_lite_share>
