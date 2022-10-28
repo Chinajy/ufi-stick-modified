@@ -1,4 +1,6 @@
-# 编译 Debian
+# Debian
+
+## 构建
 
 ```bash
 # Cloning
@@ -13,9 +15,9 @@ make
 # Build Kernel image and headers
 fakeroot make-kpkg \
     --initrd \
-    --cross-compile aarch64-linux-gnu-
-    --arch arm64
-    kernel_image
+    --cross-compile aarch64-linux-gnu- \
+    --arch arm64 \
+    kernel_image \
     kernel_headers
 # 在主目录下创建一个back文件夹
 # 将 arch/arm64/boot/Image.gz 文件复制到刚刚创建的文件夹
@@ -41,8 +43,9 @@ debian/mount.sh
 img2simg root.img rootfs.img
 ```
 
+## 打包
+
 ```bash
-# Packing Image
 cat Image.gz msm8916-handsome-openstick-ufi001c.dtb > ufi001c-kernel-dtb
 mv initrd.img-* initrd.img
 mkbootimg \
